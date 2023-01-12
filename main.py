@@ -1,6 +1,3 @@
-
-# Up level in enemies
-
 import pygame
 import sys
 from random import randint, choice
