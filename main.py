@@ -207,7 +207,7 @@ def main():
     game_text_rect = game_text.get_rect(center=(380, 50))
 
     clock = pygame.time.Clock()
-    background_img = pygame.image.load("images/desert_BG.png").convert_alpha()
+    background_img = pygame.image.load("desert_BG.png").convert_alpha()
     hero = pygame.sprite.GroupSingle()
     hero.add(Hero())
     enemies_group = pygame.sprite.Group()
