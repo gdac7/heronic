@@ -179,8 +179,8 @@ def main():
     score = 0
     screen = pygame.display.set_mode((800, 400))
     pygame.display.set_caption('HERONIC')
-    score_font = pygame.font.Font("font/font1.ttf", 30)
-    level_font = pygame.font.Font("font/font1.ttf", 15)
+    score_font = pygame.font.Font("font.ttf", 30)
+    level_font = pygame.font.Font("font.ttf", 15)
     baby_dragon_frames = [
         pygame.image.load("babydragon/walk1.png").convert_alpha(),
         pygame.image.load("babydragon/walk2.png").convert_alpha(),
@@ -202,7 +202,7 @@ def main():
     exit_button = pygame.image.load("buttons/exit_button.png").convert_alpha()
     eb_rect = exit_button.get_rect(center=(380, 325))
 
-    start_font = pygame.font.Font("font/font1.ttf", 50)
+    start_font = pygame.font.Font("font.ttf", 50)
     game_text = start_font.render("Heronic", True, "blue")
     game_text_rect = game_text.get_rect(center=(380, 50))
 
