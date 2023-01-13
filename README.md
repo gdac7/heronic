@@ -1,5 +1,5 @@
 # heronic
-A pretty simple 2d game like Dinosaur T-Rex Game from Google, made with Pygame.
+A 2d runner game made with Pygame.
 
 ![jogo](https://user-images.githubusercontent.com/121177058/212357027-0df7e581-fc6d-485f-a2a6-138ad27dc766.png)
 
